@@ -6,7 +6,7 @@ Description: Integrates romulusapp.com with ProudCity
 Version: 1.1.0
 Author: ProudCity
 Author URI: https://proudcity.com/
-License: Affero GPL v2
+License: Affero GPL v3
 */
 
 namespace Proud\Romulus;
