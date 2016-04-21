@@ -16,11 +16,10 @@ class Romulus extends \ProudPlugin {
 
 
   function __construct() {
-    parent::__construct(
-      'proud_romulus', // Base ID
-      __( 'Romulus From', 'wp-proud-romulus' ), // Name
-      array( 'description' => __( 'Romulus Contact From', 'wp-proud-romulus' ), ) // Args
-    );
+    parent::__construct( array(
+      'textdomain'     => 'wp-proud-romulus',
+      'plugin_path'    => __FILE__,
+    ) );
   }
 
   function initialize() {
